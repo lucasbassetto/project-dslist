@@ -31,5 +31,4 @@ public class GameController {
         List<GameMinDTO> list = gameService.findAll();
         return ResponseEntity.ok().body(list);
     }
-
 }
